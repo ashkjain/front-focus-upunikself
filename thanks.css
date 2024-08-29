@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body
+{
+    @apply bg-slate-700;
+}
+#globalContainer
+{
+    @apply container grid justify-center items-center align-middle w-screen h-screen;
+}
+#thanksContainer
+{
+    @apply grid mx-auto my-auto border-8 w-80 h-60 border-gray-500 rounded-md shadow-[4px_4px_2px] shadow-white bg-gradient-to-l from-slate-400 to-gray-600 md:w-96 md:h-96;
+}
+#thanksTitle
+{
+    font-family: var(--thankFont);
+    @apply text-center my-4 text-3xl text-white md:text-4xl md:mt-6;
+}
+#heading
+{
+    font-family:var(--thankFont);
+    @apply text-white text-center md:text-xl;
+}
+#content
+{
+    @apply text-white text-center my-4 font-semibold md:px-2 md:leading-loose;
+}
+#content > span
+{
+    @apply font-bold text-gray-700;
+}

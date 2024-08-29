@@ -1,10 +1,12 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 /* Imports */
 
 /* Variables */
 :root
 {
     --titleFont: 'Courgette';
+    --thankFont: 'Permanent Marker', cursive;
 }
 /* Variables */
