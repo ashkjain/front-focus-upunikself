@@ -2,7 +2,7 @@ const element = document.getElementById('productContainer');
 const url = 'https://raw.githubusercontent.com/ashkjain/front-focus-upunikself/main/api/product.json';
 async function fetchApiData(url) {
     try {
-        const result = await fetch(url, { cache: 'no-store' });  // Disable caching
+        const result = await fetch(url, { cache: 'no-store' });  // Used this to disable caching
         if (!result.ok) {
             element.innerHTML = '<p id="productNone">Unable To Provide Products Details! We Apologize For Inconvenience</p>'
         } else {
