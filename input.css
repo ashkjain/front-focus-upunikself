@@ -109,7 +109,7 @@ header
 /* Footer */
 footer
 {
-    @apply bg-gradient-to-l from-slate-500 to-gray-500 relative bottom-0;
+    @apply bg-gradient-to-l from-slate-500 to-gray-500;
 }
 #formContainer
 {
