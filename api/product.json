@@ -1,17 +1,17 @@
 [
   {
-    product_name:'Product 1',
-    product-image: 'https://raw.githubusercontent.com/ashkjain/front-focus-upunikself/main/assets/buffalo.png',
-    product_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae eos tempora expedita esse amet in porro reprehenderit qui consequatur?'
+    "product_name": "Product 1",
+    "product-image": "https://raw.githubusercontent.com/ashkjain/front-focus-upunikself/main/assets/buffalo.png",
+    "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae eos tempora expedita esse amet in porro reprehenderit qui consequatur?"
   },
   {
-    product_name:'Product 2',
-    product-image: 'https://raw.githubusercontent.com/ashkjain/front-focus-upunikself/main/assets/horses.png',
-    product_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae eos tempora expedita esse amet in porro reprehenderit qui consequatur?'
+    "product_name": "Product 2",
+    "product-image": "https://raw.githubusercontent.com/ashkjain/front-focus-upunikself/main/assets/horses.png",
+    "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae eos tempora expedita esse amet in porro reprehenderit qui consequatur?"
   },
   {
-    product_name:'Product 1',
-    product-image: 'https://raw.githubusercontent.com/ashkjain/front-focus-upunikself/main/assets/panda-bear.png',
-    product_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae eos tempora expedita esse amet in porro reprehenderit qui consequatur?'
+    "product_name": "Product 3",
+    "product-image": "https://raw.githubusercontent.com/ashkjain/front-focus-upunikself/main/assets/panda-bear.png",
+    "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae eos tempora expedita esse amet in porro reprehenderit qui consequatur?"
   }
 ];
