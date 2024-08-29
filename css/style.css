@@ -561,6 +561,7 @@ video {
 /* Global Container Starts Here*/
 
 body {
+  overflow-x: hidden;
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
@@ -743,8 +744,8 @@ header {
 }
 
 #aboutUsContent {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
