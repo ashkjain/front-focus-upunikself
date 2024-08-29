@@ -8,7 +8,7 @@ body
 }
 #globalContainer
 {
-    @apply container grid justify-center items-center align-middle w-screen h-screen;
+    @apply grid place-items-center w-screen h-screen;
 }
 #thanksContainer
 {
