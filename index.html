@@ -1,22 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Contact Form</title>
+    <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/import.css">
 </head>
-<body class="bg-slate-600">
-    <div id="container" class="grid w-screen h-screen">
-        <div id="formContainer" class="grid m-auto border-4 rounded-lg w-64 text-center">
-            <div id="formContent" class="px-4 py-4">
-            <p class="my-2">Please Fill Out This Form</p>
-            <form action="">
-                <input type="text" id="fname" placeholder="First Name" class="my-2"><br>
-                <input type="text" id="lname" placeholder="Last Name" class="my-2">
-            </form>
-        </div>
-        </div>
-    </div>  
+
+<body>
+    <!-- Global Container -->
+    <div id="mainContainer" class="">
+        <!-- Global Container -->
+        <header class="">
+            <div id="name-toggle" class="">
+                <p id="compName" class="">Frontend</p>
+                <button id="hamburgerButton" class=""> &#9776; </button>
+            </div>
+            <nav class="" id="navigation">
+                <a href="#" class="navLinks">Home</a>
+                <a href="#" class="navLinks">About</a>
+                <a href="#formContainer" class="navLinks">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <div id="companyName" class="">
+                    <h1 id="company-title">Frontend</h1>
+                </div>
+                <div id="aboutCompany">
+                    <p id="aboutUs">About Us</p>
+                    <p id="aboutUsContent">Welcome to Frontend, where simplicity meets creativity. As a company focused
+                        on delivering clean and responsive designs, we specialize in crafting user-friendly websites
+                        that seamlessly blend functionality with aesthetics. Our goal is to bring ideas to life through
+                        intuitive design and efficient coding, ensuring a smooth and engaging experience for all users.
+                        At Frontend, we believe in the power of modern web technologies like Tailwind CSS and JavaScript
+                        to create stunning, responsive websites. Whether it’s a simple landing page or a dynamic web
+                        app, we’re committed to making every project stand out with elegance and precision.</p>
+                </div>
+                <div id="productsCompany">
+                    <p id="productTitle">Our Products</p>
+                    <p id="productPara">These are a few products we have relased</p>
+                    <div id="productContainer">
+                        <div class="product">
+                            <img src="./assets/buffalo.png" alt="">
+                            <h3>Product 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae eos tempora expedita esse amet in porro reprehenderit qui consequatur?</p>
+                            <a href="#">Take Me There</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/horse.png" alt="">
+                            <h3>Product 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae eos tempora expedita esse amet in porro reprehenderit qui consequatur?</p>
+                            <a href="#">Take Me There</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/panda-bear.png" alt="">
+                            <h3>Product 3</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae eos tempora expedita esse amet in porro reprehenderit qui consequatur?</p>
+                            <a href="#">Take Me There</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <div id="formContainer">
+                    <p id="formTitle">Contact Us</p>
+                    <form method="post" id="form">
+                        <input type="text" id="fname" placeholder="John">
+                        <input type="text" id="lname" placeholder="Doe">
+                        <input type="email" id="email" placeholder="johndoe@email.com">
+                        <button type="submit" id="submitBtn">Submit</button>
+                    </form>
+                </div>
+                <div id="copyContent">
+                    <p id="copyright"> &copy; <span id="year"></span> Frontend. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

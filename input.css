@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Global Container Starts Here*/
+body 
+{
+    @apply bg-slate-700;
+}
+#mainContainer
+{
+    @apply container grid ;
+}
+/* Global Container Ends Here*/
+
+/* Section One Starts Here */
+/* Header */
+header
+{
+    @apply grid sticky top-0 z-10;
+}
+#name-toggle
+{
+    @apply grid grid-cols-3 items-center h-12 text-center w-screen bg-gradient-to-l from-slate-500 to-gray-500;
+}
+#compName
+{
+    font-family:var(--titleFont);
+    @apply col-span-2 text-white text-lg sm:col-span-3 w-full;
+}
+#hamburgerButton
+{
+    @apply border rounded w-min m-auto px-2 py-1 text-white bg-black sm:hidden;
+}
+#navigation
+{
+    @apply flex flex-col items-center transition duration-1000 sm:flex-row;
+}
+.navLinks
+{
+    @apply w-full text-center py-2 border text-white bg-gradient-to-r from-slate-600 to-slate-800;
+}
+/* Section One Ends Here */
+
+
+/* Section Two Starts Here */
+/* Main */
+#companyName
+{
+    @apply grid items-center justify-center text-center;
+}
+#company-title
+{
+    font-family: var(--titleFont);
+    @apply w-screen text-7xl py-16 text-white;
+}
+#aboutCompany
+{
+    @apply grid items-center justify-center text-center;
+}
+#aboutUs
+{
+    @apply text-white text-3xl py-4;
+}
+#aboutUsContent
+{
+    @apply text-white px-2
+}
+#productCompany
+{
+    @apply grid items-center justify-center text-center;
+}
+#productTitle
+{
+    @apply text-white text-3xl py-4 text-center;
+}
+#productPara
+{
+    @apply text-white px-2 text-center;
+}
+#productContainer
+{
+    @apply grid md:grid-cols-2 lg:grid-cols-3;
+}
+.product
+{
+    @apply border-8 rounded-xl w-72 m-auto my-4 shadow-md shadow-slate-400 transition-all ease-in-out duration-200 hover:bg-gradient-to-l hover:from-gray-400 hover:to-gray-500 hover:font-bold;
+}
+.product > img
+{
+    @apply w-32 m-auto border-4 my-2 rounded-full p-2 bg-gradient-to-t from-slate-400 to-gray-500;
+}   
+.product > h3
+{
+    @apply text-center text-white font-semibold;
+}
+.product > p
+{
+    @apply text-center px-2 py-1 text-white;
+}
+.product > a
+{
+    @apply border-2 block text-center w-max m-auto my-3 py-4 px-4 rounded-xl text-white bg-blue-500 shadow-[3px_3px_1px_] shadow-gray-400 transition-all hover:bg-green-500 hover:duration-300 font-semibold hover:shadow-[-3px_-3px_1px];
+}
+/* Section Two Ends Here */
+
+/* Section Three Ends Here */
+/* Footer */
+footer
+{
+    @apply bg-gradient-to-l from-slate-500 to-gray-500;
+}
+#formContainer
+{
+    @apply grid items-center justify-center text-center ;
+}
+#formTitle
+{
+    @apply text-white text-3xl;
+}
+#formContainer > form
+{
+    @apply flex flex-col xl:flex-row;
+}
+#fname,#lname,#email
+{
+    @apply my-2 w-72 pl-2 py-1 border rounded bg-gradient-to-r from-slate-600 to-slate-800 text-white md:w-96 xl:mx-1 xl:w-64;
+}
+#submitBtn
+{
+    @apply border border-orange-500 m-auto w-24 p-2 rounded text-orange-400 bg-gradient-to-r from-slate-600 to-slate-800 shadow-[3px_3px_1px] shadow-orange-500 transition-all ease-in-out hover:shadow-[-2px_-2px_1px] hover:duration-200 active:scale-75 hover:scale-95 font-semibold;
+}
+#copyright
+{
+    @apply text-white font-bold text-center my-3;
+}
+
