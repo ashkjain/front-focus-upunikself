@@ -1,4 +1,4 @@
-const element = document.getElementById('content');
+const element = document.getElementById('productContainer');
 const url = 'https://raw.githubusercontent.com/ashkjain/front-focus-upunikself/main/api/product.json';
 async function fetchApiData(url) {
     try {
