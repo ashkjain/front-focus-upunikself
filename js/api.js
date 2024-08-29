@@ -4,7 +4,7 @@ async function fetchApiData(url) {
     try {
         const result = await fetch(url, { cache: 'no-store' });  // Disable caching
         if (!result.ok) {
-            element.innerHTML = '<p>No Product To Show</p>;'
+            element.innerHTML = '<p class="text-white">No Product To Show</p>;'
         } else {
             const json = await result.json();
             if(json.length === 0)
