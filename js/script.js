@@ -4,7 +4,7 @@ function hamburgerToggle() {
     hamburger.addEventListener('click', () => {
         navigation.forEach((nav) => 
         {
-            nav.classList.toggle('hidden');
+            nav.classList.toggle('hiddenNav');
         })
     });
 };
@@ -35,6 +35,6 @@ function getFormData()
         });
 };
 
-hamburgerToggle();
 copyrightYear();
 getFormData();
+hamburgerToggle();

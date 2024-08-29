@@ -715,6 +715,10 @@ header {
   --tw-gradient-to: #3b82f6 var(--tw-gradient-to-position);
 }
 
+.hiddenNav {
+  display: none;
+}
+
 /* Section One Ends Here */
 
 /* Section Two Starts Here */
@@ -828,6 +832,20 @@ header {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   --tw-gradient-to: #6b7280 var(--tw-gradient-to-position);
   font-weight: 700;
+}
+
+#productNone {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  width: 100vw;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .product > img {

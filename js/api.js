@@ -4,18 +4,15 @@ async function fetchApiData(url) {
     try {
         const result = await fetch(url, { cache: 'no-store' });  // Disable caching
         if (!result.ok) {
-            element.innerHTML = '<p class="text-white">No Product To Show</p>;'
+            element.innerHTML = '<p id="productNone">Unable To Provide Products Details! We Apologize For Inconvenience</p>'
         } else {
             const json = await result.json();
-            if(json.length === 0)
-            {
-
+            if (json.length === 0) {
+                element.innerHTML = '<p id="productNone">No Products To Show</p>'
             }
-            else
-            {
+            else {
                 let productHtml = '';
-                for(let iterate = 0; iterate < json.length; iterate++)
-                {
+                for (let iterate = 0; iterate < json.length; iterate++) {
                     const product = json[iterate];
                     productHtml += `<div class="product">
                             <img src="${product.product_image}" alt="">
@@ -26,20 +23,10 @@ async function fetchApiData(url) {
                 }
                 element.innerHTML = productHtml;
             }
-            
+
         }
     } catch (error) {
         console.log(error.message);
     }
 };
 fetchApiData(url);
-/* 
-
-<div class="product">
-                            <img src="./assets/buffalo.png" alt="">
-                            <h3>Product 1</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae eos tempora expedita esse amet in porro reprehenderit qui consequatur?</p>
-                            <a href="#">Take Me There</a>
-                        </div>
-
- */
