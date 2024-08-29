@@ -33,4 +33,4 @@ JSON is used in this to show the ability to use API. The JSON was fetched in the
 This is JSON file that is stored in the same main directory where other content resides. The sole purpose to use this JSON is to show as a frontend developer capabillity of handling API and use it to show content dynamically.
 
 ## Contact
-If you have any concerns about the names or content used in this project, or if you believe that any of the content or names belong to you or your organization and should be removed, please contact me at == ashkjain0@gmail.com == . I will address any issues promptly.
+If you have any concerns about the names or content used in this project, or if you believe that any of the content or names belong to you or your organization and should be removed, please contact me at <ashkjain0@gmail.com>. I will address any issues promptly.
