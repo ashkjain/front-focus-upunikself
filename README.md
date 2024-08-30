@@ -27,8 +27,10 @@ These files are using the tailwind directives and all the styles are configured 
 JavaScript has been used to make the website more dynamic and add functions like the Hamburger Button for the Navigation bar, current year for copyright, and getting the data upon form submission. 
 #### ./js/script.js
 This file contains three main functions that contribute to the dynamic nature and interactivity of the pages in this repository. The first function is used to make the hamburger button toggle possible, and upon clicking on the mobile screen it makes the navigation hidden using the tailwindcss class called hidden on each anchor tag. The second function is just adding the current year in the footer after the copyright symbol. The last function is created to receive the form data and store it in local storage, so it can be used in the `thanks.html` page to show the form information.
+
 ####./js/retrieve.js
 This file contains only one function and the sole purpose of that function is to collect the data from local storage and then pass it to the page where the information needs to be provided.
+
 ####./js/api.js
 This file serves a significant purpose in this project, this file contains only one function that fetches the API and adds the content in the product section of the page. And if the call is failed there is an HTML passed which also has tailwind classes on it. If there is no content in the returned object, there is another HTML that will be passed.
 
